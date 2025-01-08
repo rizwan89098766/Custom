@@ -1,0 +1,432 @@
+.logo {
+    width: 120px;
+    border-radius: 40px;
+}
+
+@media screen and (min-width: 480px) {
+    .img-fluid {
+        position: relative;
+        top: 150px;
+        z-index: 1;
+    }
+
+    main {
+        background-color: black;
+        height: 550px;
+
+    }
+
+    .reason {
+        font-size: 25px;
+        font-weight: 800;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(255, 213, 3);
+        position: relative;
+        top: 180px;
+        left: 70px;
+        display: inline;
+        z-index: 2;
+    }
+
+    .reason1 {
+        font-size: 25px;
+        font-weight: 800;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(255, 213, 3);
+        position: relative;
+        top: 190px;
+        left: 110px;
+        display: inline;
+        z-index: 2;
+    }
+
+    #contact {
+        position: relative;
+        top: 450px;
+        left: 50px;
+        width: 150px;
+        background-color: black;
+        color: rgb(255, 213, 3);
+        font-weight: 700;
+        border: 2px solid white;
+        border-radius: 10px;
+        z-index: 2;
+    }
+
+    .needs-validation {
+        width: 470px;
+        height: 600px;
+        background-color: white;
+        z-index: 2;
+        position: relative;
+        top: 200px;
+        left: 15px;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+
+    .form-label {
+        position: relative;
+        left: 180px;
+    }
+
+    #form {
+        position: relative;
+        left: 170px;
+    }
+
+    .footer {
+        background-color: #333;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        position: relative;
+        top: 600px;
+    }
+
+    /* Footer content alignment */
+    .footer .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    /* Social link styling */
+    .footer .social-links {
+        margin-top: 10px;
+    }
+
+    .footer .social-links a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 18px;
+    }
+
+    .footer .social-links a:hover {
+        text-decoration: underline;
+    }
+
+    #services {
+        font-size: 30px;
+        color: black;
+        font-weight: 700;
+        position: relative;
+        top: 170px;
+        left: 140px;
+        text-decoration: underline rgb(246, 206, 8) 7px;
+        text-shadow: 5px;
+        display: inline;
+    }
+
+    #featured {
+        font-size: 30px;
+        color: black;
+        font-weight: 700;
+        position: relative;
+        top: 170px;
+        left: 130px;
+        text-decoration: underline rgb(246, 206, 8) 7px;
+        text-shadow: 5px;
+        display: inline;
+    }
+
+    #new {
+        font-size: 30px;
+        color: black;
+        font-weight: 700;
+        position: relative;
+        top: 170px;
+        left: 160px;
+        text-decoration: underline rgb(246, 206, 8) 7px;
+        text-shadow: 5px;
+        display: inline;
+    }
+
+    #brand {
+        font-size: 30px;
+        color: black;
+        font-weight: 700;
+        position: relative;
+        top: 170px;
+        left: 150px;
+        text-decoration: underline rgb(246, 206, 8) 7px;
+        text-shadow: 5px;
+        display: inline;
+    }
+
+
+    .col {
+        position: relative;
+        top: 200px;
+        left: 0px;
+        padding-top: 30px;
+        display: inline;
+    }
+
+    #card {
+        position: relative;
+        left: 90px;
+
+    }
+
+    i {
+        font-size: 50px;
+    }
+
+    .card-title {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    #view {
+        width: 90px;
+    }
+
+    .card-group {
+        position: relative;
+        top: 200px;
+    }
+
+    #top-img {
+        width: 250px;
+        height: 120px;
+        position: relative;
+        top: 20px;
+        left: 100px;
+    }
+
+    #title {
+        position: relative;
+        left: 100px;
+        top: 5px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .img-fluid {
+        position: relative;
+        width: 1000px;
+        top: 0px;
+        z-index: 1;
+        position: relative;
+        top: 100px;
+        left: 250px;
+
+    }
+
+    main {
+        background-color: black;
+        height: 750px;
+        width: 1519px;
+    }
+
+    .reason {
+        font-size: 40px;
+        font-weight: 600;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(255, 213, 3);
+        position: relative;
+        left: 250px;
+        top: 160px;
+        display: inline;
+        z-index: 2;
+    }
+
+    .reason1 {
+        font-size: 40px;
+        font-weight: 600;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(255, 213, 3);
+        position: relative;
+        top: 160px;
+        left: 260px;
+        display: inline;
+        z-index: 2;
+    }
+
+    #contact {
+        position: relative;
+        top: 630px;
+        left: 300px;
+        width: 200px;
+        background-color: black;
+        color: rgb(255, 213, 3);
+        font-weight: 700;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+
+    .needs-validation {
+        width: 1000px;
+        height: 300px;
+        background-color: white;
+        z-index: 2;
+        position: relative;
+        top: 150px;
+        left: 270px;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+
+    .form-label {
+        position: relative;
+        left: 70px;
+    }
+
+    #form {
+        position: relative;
+        left: 450px;
+        top: 20px;
+    }
+
+    /* Basic footer styling */
+    .footer {
+        background-color: #333;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        position: relative;
+        top: 300px;
+    }
+
+    /* Footer content alignment */
+    .footer .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    /* Social link styling */
+    .footer .social-links {
+        margin-top: 10px;
+    }
+
+    .footer .social-links a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 18px;
+    }
+
+    .footer .social-links a:hover {
+        text-decoration: underline;
+    }
+
+    #services {
+        font-size: 40px;
+        color: black;
+        font-weight: 700;
+        position: relative;
+        top: 170px;
+        left: 600px;
+        text-decoration: underline rgb(246, 206, 8) 10px;
+        text-shadow: 5px;
+        display: inline;
+    }
+
+    #new {
+        font-size: 40px;
+        color: black;
+        font-weight: 700;
+        position: relative;
+        top: 170px;
+        left: 640px;
+        text-decoration: underline rgb(246, 206, 8) 10px;
+        text-shadow: 5px;
+        display: inline;
+    }
+
+    #featured {
+        font-size: 40px;
+        color: black;
+        font-weight: 700;
+        position: relative;
+        top: 170px;
+        left: 600px;
+        text-decoration: underline rgb(246, 206, 8) 10px;
+        text-shadow: 5px;
+        display: inline;
+    }
+
+    #brand {
+        font-size: 40px;
+        color: black;
+        font-weight: 700;
+        position: relative;
+        top: 170px;
+        left: 610px;
+        text-decoration: underline rgb(246, 206, 8) 10px;
+        text-shadow: 5px;
+        display: inline;
+    }
+
+    .col {
+        position: relative;
+        top: 300px;
+        left: -50px;
+    }
+
+    i {
+        font-size: 120px;
+    }
+
+    .card-title {
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .card-text {
+        font-size: 25px;
+    }
+
+    #view {
+        width: 120px;
+    }
+
+    .card-group {
+        position: relative;
+        top: 250px;
+    }
+
+    #top-img {
+        width: 350px;
+        height: 200px;
+        position: relative;
+        left: 50px;
+        top: 20px;
+    }
+
+    #title {
+        position: relative;
+        top: 10px;
+        left: 50px;
+    }
+    
+    #car1{
+        position: relative;
+        top: 240px;
+        left: 150px;
+    }
+
+    #car2{
+        position: relative;
+        left: 600px;
+        top: -250px;
+    }
+
+    #car3{
+        position: relative;
+        left: 1050px;
+        top: -760px;
+    }
+
+
+}
